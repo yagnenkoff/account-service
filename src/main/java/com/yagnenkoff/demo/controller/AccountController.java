@@ -13,12 +13,12 @@ import java.util.List;
 
 
 @RestController
-public class MainController {
+public class AccountController {
 
     private final BankAccountService bankAccountService;
 
     @Autowired
-    public MainController(BankAccountService bankAccountService) {
+    public AccountController(BankAccountService bankAccountService) {
         this.bankAccountService = bankAccountService;
     }
 
